@@ -10,7 +10,7 @@
 
 1. Deploy this application to Netlify and add the link to your Netlify site below:
 
-- [MY LIVE SITE URL]()
+- [MY LIVE SITE URL](https://main--comforting-fenglisu-61e226.netlify.app)
 
 ## Instructions
 
