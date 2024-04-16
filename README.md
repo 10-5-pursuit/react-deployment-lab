@@ -17,7 +17,7 @@ Open up the repository in VSCode. Follow the instructions below to complete the 
 
 Deploy this application to Netlify and add the link to your Netlify site below:
 
-- [MY LIVE SITE URL](https://iridescent-brioche-c194b7.netlify.app)
+- [MY LIVE SITE URL](https://statuesque-bublanina-5839bd.netlify.app)
 Instructions
 Choose one of your former labs for HTML or CSS (no JavaScript interactivity or DOM manipulation) - like Intro to CSS, CSS Grid, or Media Queries.
 
