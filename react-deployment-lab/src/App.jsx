@@ -3,7 +3,6 @@ import './App.css'
 
 function App() {
 
-
   return (
     <div class="parent">
       <div class="grid-item one_white"> </div>
