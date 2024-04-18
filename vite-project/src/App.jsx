@@ -1,0 +1,73 @@
+import { useState } from 'react'
+import './App.css'
+
+function App() {
+  
+
+  return (
+    <>
+      <h1 class="head__name">Your Name Here</h1>
+    <div>
+      <p class="para__that">
+        This is a bunch of information about myself. I'm from here and there and
+        discovered my love of programming when this happened. When I'm not
+        working I'm busy doing this and that.
+      </p>
+    </div>
+
+    <div class="img">    
+      <img src="./assets/avatar-gfe7eab2c5_640.png" alt="Profile photo" />
+    </div>
+
+    <div>
+      <h2 class="head__skills">Here are some of my Skills!</h2>
+
+      <h3 class="languages">Languages</h3>
+      <ul class="languages__list">
+        <li class="languages__one">JavaScript</li>
+        <li class="languages__two">SQL</li>
+        <li class="languages__three">HTML5</li>
+        <li class="languages__four">CSS3</li>
+      </ul>
+
+      <h3 class="head__library">Libraries</h3>
+      <ul class="libraries">
+        <li class="libraries__one">React</li>
+        <li class="libraries__two">Node</li>
+        <li class="libraries__three">Bootstrap</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2 class="head__far">Hardest Bug So Far</h2>
+      <p class="para__escape">
+        My hardest bug I ever came across was this infinite loop I couldn't
+        escape.
+      </p>
+      <p class="para__doing">I came up with a totally sick solution though by doing ...</p>
+    </div>
+
+    <ul class="links">
+      <li><a href="#">github link</a></li>
+      <li><a href="#">LinkedIn link</a></li>
+      <li><a href="#">Angel list link</a></li>
+      <li><a href="#">Pursuit link</a></li>
+    </ul>
+
+    <footer>
+      <h2 class="head__me">Contact Me</h2>
+      <div>
+        <h4 class="head__at">Email me at:</h4>
+        <a href="#" target="_top">hello@pursuit.org</a>
+      </div>
+      <form>
+        <label>Provide feedback:</label>
+        <input type="text" name="" value="" />
+        <input type="submit" name="submit" value="submit" />
+      </form>
+    </footer>
+    </>
+  )
+}
+
+export default App
